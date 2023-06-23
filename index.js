@@ -11,7 +11,7 @@ app.use('/router',Router);
 
 app.use(express.static(__dirname + '/public'));
 
-app.listen(4444, 'YOURIP!', function(){
+app.listen(1337, '82.180.173.121', function(){
   console.log(`Server draait op: YOURIP:4444`);
 });
 
